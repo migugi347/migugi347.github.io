@@ -1,22 +1,27 @@
 ---
 layout: page
 title: Zenji
-description: Explore the fusion of traditional Japanese language learning with cutting-edge AI technology.
-img: /assets/img/poop.png
+description: A kanji learning PWA that combines AI feedback with a clean mobile-first study flow.
+img: /assets/img/zenji_feedback.png
 importance: 1
 category: work
 related_publications: false
 ---
 
-# Zenji: Enhancing Kanji Learning with Artificial Intelligence
+# Zenji
 
-Every project has its unique charm and at Zenji, we bring together the elegance of Japanese characters and the precision of machine learning. Our application provides real-time feedback on written Kanji, facilitating a deeper understanding and mastery of Japanese writing.
+Zenji is a kanji learning app built to make handwriting practice more interactive and less frustrating. The goal was to create a mobile-friendly study experience where users could draw characters, get feedback quickly, and keep improving without breaking flow.
 
-## Project Overview
+## What I built
 
-Zenji incorporates a dual-approach system combining heuristic algorithms and a machine learning model to enhance user interaction and learning efficiency. The heuristic model provides immediate grading and feedback on user-written Kanji, while the machine learning component, developed using TensorFlow, activates computer vision to offer suggestions and recognize character details. This sophisticated system not only improves the accuracy of character recognition but also tailors the learning experience to individual progress, significantly boosting the users' ability to refine their Kanji skills.
+- A convolutional neural network in TensorFlow for recognizing handwritten kanji input
+- A Progressive Web App experience using TypeScript and Firebase
+- Real-time feedback flows that helped users understand stroke quality and character accuracy
+- A production-ready team project delivered within a two-month build window
 
-### Interactive Learning with AI
+## Why it mattered
+
+This project sat at the intersection of product design and machine learning. We needed the model to be useful, but we also needed the app to feel responsive enough that practicing characters stayed enjoyable. That balance between model quality and user experience was the most interesting part of the build.
 
 <div class="row justify-content-center">
     <div class="col-sm-6 mt-3 mt-md-0 ">
@@ -24,6 +29,6 @@ Zenji incorporates a dual-approach system combining heuristic algorithms and a m
     </div>
 </div>
 <div class="caption">
-    Experience personalized feedback on your Kanji writing skills and see how AI seamlessly integrates with traditional learning methods.
+    A feedback view from Zenji showing how the app helped users practice and improve their kanji writing in real time.
 </div>
 <a href="https://zenji-1e015.web.app" target="_blank" rel="noopener noreferrer">Try Zenji now on your phone </a>

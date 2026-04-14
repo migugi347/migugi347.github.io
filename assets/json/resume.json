@@ -1,141 +1,123 @@
 {
   "basics": {
     "name": "Miguel Garcia",
-    "label": "Software Engineer",
+    "label": "Production Engineer",
     "image": "",
     "email": "miguelgi347@gmail.com",
     "phone": "(972) 261-3642",
     "url": "https://migugi347.github.io/",
-    "summary": "An aspiring Senior computer scientist interested in Software Development and motivated to always learn new frameworks and innovative solutions",
+    "summary": "Software engineer with experience across distributed systems, production engineering, developer infrastructure, and machine learning. I enjoy improving reliability, performance, and observability in systems that operate at scale.",
     "location": {
-      "city": "The Colony",
-      "countryCode": "TX",
-      "region": "Texas"
+      "city": "New York",
+      "countryCode": "US",
+      "region": "New York"
     }
   },
   "work": [
     {
-      "name": "Goldman Sachs",
+      "name": "Meta - Messaging Infrastructure",
+      "position": "Production Engineer",
+      "url": "https://about.meta.com",
+      "startDate": "2024-11-01",
+      "summary": "New York, NY",
+      "highlights": [
+        "Improved read and write performance of a distributed message storage system with cache preloading and reduced redundant data fetches, lowering read latency by 50% and increasing write throughput by 40%",
+        "Built a load testing framework ahead of a large-scale data migration, uncovering throughput risks that influenced migration strategy",
+        "Added observability across critical data flows, enabling detection of multiple production incidents and reducing client-side error rates by 20%",
+        "Designed dashboards, alerts, and debugging runbooks that became the team’s operational source of truth",
+        "Served as primary oncall engineer for a Tier 0 messaging storage service and documented root causes for high-severity incidents"
+      ]
+    },
+    {
+      "name": "Goldman Sachs - DevOps/Runtime Engineering",
+      "position": "Analyst",
+      "url": "https://www.goldmansachs.com",
+      "startDate": "2024-07-01",
+      "endDate": "2024-11-01",
+      "summary": "Richardson, TX",
+      "highlights": [
+        "Managed deployments and maintained infrastructure for a consumer-facing financial services platform",
+        "Built dashboards for real-time visibility into system performance and operational metrics",
+        "Debugged CI/CD pipeline issues to improve deployment reliability and reduce release failures"
+      ]
+    },
+    {
+      "name": "Goldman Sachs - DevOps/Runtime Engineering",
       "position": "Software Engineer Intern",
       "url": "https://www.goldmansachs.com",
       "startDate": "2023-06-01",
       "endDate": "2023-08-01",
-      "summary": "Oversaw deployments and maintained internal infrastructure as part of a DevOps/Runtime Engineering team. and Implemented best practices and automation strategies, reducing downtime and improving system reliability whilefostering a collaborative and growth-oriented work environment.",
-      "highlights": ["Infrastucture, DevOps , Intern"]
-    }
-  ],
-  "volunteer": [
+      "summary": "Richardson, TX",
+      "highlights": [
+        "Supported deployments and internal infrastructure for runtime engineering workflows",
+        "Improved operational practices and automation for a more reliable delivery process"
+      ]
+    },
     {
-      "organization": "People's Climate March",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "Texas A&M University",
+      "position": "Peer Teacher / Teaching Assistant",
+      "url": "https://www.tamu.edu",
+      "startDate": "2021-08-01",
+      "endDate": "2024-05-01",
+      "summary": "College Station, TX",
+      "highlights": [
+        "Taught data structures, algorithms, and Python fundamentals across CS and engineering courses",
+        "Held weekly office hours supporting 100+ students"
+      ]
     }
   ],
+  "volunteer": [],
   "education": [
     {
       "institution": "Texas A&M University, College Station, Texas",
       "location": "Texas, US",
       "url": "https://www.tamu.edu/index.html",
-      "area": "Software Development",
-      "studyType": "Bachelor's",
+      "area": "Computer Science | GPA: 3.72/4.00",
+      "studyType": "Bachelor of Science",
       "startDate": "2020-09-01",
       "endDate": "2024-05-01",
-      "score": "10",
-      "courses": ["Data Structures and Algorithms", "Wireless Networking Systems", "Discrete Math", "Machine learning", "AI"]
+      "score": "3.72/4.00",
+      "courses": [
+        "Distinguished Student Award (Spring 2022, Spring 2023)",
+        "Coursework included data structures, algorithms, machine learning, AI, and networking systems"
+      ]
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "Distinguished Student Award",
+      "date": "2023-05-01",
+      "awarder": "Texas A&M University",
+      "url": "https://www.tamu.edu",
+      "summary": "Recognized for academic achievement during Spring 2022 and Spring 2023."
     }
   ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
-    }
-  ],
+  "certificates": [],
+  "publications": [],
   "skills": [
     {
-      "name": "Languages:",
+      "name": "Languages",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
-      "keywords": ["Java", "Python", "C++", "Javascript", "Haskell", "HTML/CSS"]
+      "keywords": ["Python", "Java", "C/C++", "PHP", "JavaScript", "TypeScript", "SQL", "HTML/CSS"]
     },
     {
-      "name": "Tools and Frameworks:",
+      "name": "Frameworks & Infrastructure",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
-      "keywords": ["Firebase", "Tensorflow", "Git", "Linux", "Flask", "Bootstrap", "React.JS", "Azure DevOps", "Gitlab", "Juypter Notebook"]
+      "keywords": ["React.js", "Protocol Buffers", "Thrift", "Firebase", "TensorFlow", "PyTorch", "MySQL", "GraphQL"]
+    },
+    {
+      "name": "Developer Tools",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": ["Git", "Linux", "Docker", "Azure DevOps", "Jupyter Notebook"]
+    },
+    {
+      "name": "Concepts",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": ["Distributed Systems", "Pub/Sub Messaging", "Data Consistency", "Observability", "Performance Optimization", "Load Testing"]
     }
   ],
   "languages": [
@@ -146,59 +128,41 @@
     },
     {
       "language": "English",
-      "fluency": "Native Speaker",
+      "fluency": "Professional fluency",
       "icon": ""
     }
   ],
   "interests": [
     {
-      "name": "Computer Science",
+      "name": "Technical Interests",
       "icon": "fa-solid fa-tag",
-      "keywords": ["Machine Learning", "Artificial Intelligence", "System Architecture", "Backend Development", "Frontend Development"]
+      "keywords": ["Distributed Systems", "Infrastructure", "Machine Learning", "Backend Development", "Observability"]
     }
   ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
+  "references": [],
   "projects": [
     {
-      "name": "Kanji Learning App",
-      "summary": "Kanji learning app, teaches users to write kanji correctly. WIP.",
-      "highlights": ["PWA", "Machine learning", "Firebase"],
-      "startDate": "2024-01-01",
+      "name": "Zenji - Kanji Learning App",
+      "summary": "Created and trained a convolutional neural network for recognizing and providing feedback on kanji characters, then helped deliver the experience as a Progressive Web App.",
+      "highlights": ["TypeScript", "Firebase", "TensorFlow"],
+      "startDate": "2024-02-01",
       "endDate": "2024-05-01",
       "url": "https://zenji-1e015.web.app"
     },
     {
-      "name": "Predictive Medical Model",
-      "summary": "Optimized data for machine learning models, utilizing advanced techniques to ensure high data quality. Evaluated multiple predictive models, employing rigorous methodologies to select the most accurate model. Fine-tuned model hyperparameters and utilized statistical analysis in order to ensure high accuracy.",
-      "highlights": ["Python", "Pytorch", "Machine learning"],
+      "name": "ICU Mortality Prediction Model",
+      "summary": "Built a mortality prediction model on ICU patient data, compared several architectures, and selected the strongest performer based on evaluation metrics after hyperparameter tuning.",
+      "highlights": ["Python", "Pandas", "PyTorch"],
       "startDate": "2023-04-01",
-      "endDate": "2023-01-01",
+      "endDate": "2023-04-30",
       "url": "https://www.kaggle.com/competitions/csce-421-machine-learning-spring-2023-section-500/leaderboard"
     },
     {
-      "name": "CPU Simulator",
-      "summary": "Led a team of 4 to develop a functioning simulator of an x86 CPU.Successfully converted machine level instructions into C functions and expressions. Devised each simulated step of a processor from the Fetch stage up to the Program Counter stage",
-      "highlights": ["Logisim", "C", "Computer Architecture"],
-      "startDate": "2022-5-01",
-      "endDate": "2022-05-01"
-    },
-    {
       "name": "KANM Student Radio Website",
-      "summary": "Coordinated with a team of 10 to develop a working UI for the A&M student radio club website utilizing React JS. Developed working front-end components with Figma to envision user interface design.",
-      "highlights": ["Website Dev", "React.JS"],
+      "summary": "Collaborated with a student team to build a working UI for the A&M student radio website and developed frontend components informed by Figma-driven design work.",
+      "highlights": ["React.js", "Frontend Development", "UI Design"],
       "startDate": "2022-01-01",
-      "endDate": "2022-01-01",
+      "endDate": "2022-05-01",
       "url": "https://kanm.tamu.edu"
     }
   ]

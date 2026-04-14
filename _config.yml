@@ -8,12 +8,12 @@ middle_name: A.
 last_name: Garcia
 email: miguelgi347@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Portfolio of Miguel Garcia, a software engineer focused on distributed systems, infrastructure, and machine learning.
 footer_text:
   # Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   # Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   # Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: miguel Garcia, TAMU, Computer-science, portfolio-website # add your own keywords or leave empty
+keywords: Miguel Garcia, software engineer, distributed systems, production engineer, Meta, Texas A&M, machine learning, portfolio # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🏔️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -50,7 +50,7 @@ navbar_fixed: true
 footer_fixed: true
 
 # Dimensions
-max_width: 800px
+max_width: 920px
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -106,6 +106,7 @@ youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
 contact_note: >
+  Open to software engineering opportunities and happy to connect about infrastructure, backend systems, and ML-driven products.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification

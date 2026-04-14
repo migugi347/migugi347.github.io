@@ -1,32 +1,33 @@
 ---
 layout: page
-title: Predictive Medical Model
-description: Harnessing advanced machine learning techniques to predict medical outcomes with high accuracy.
+title: ICU Mortality Prediction Model
+description: An ICU mortality prediction project comparing multiple ML approaches on real patient data.
 img: /assets/img/med3.png
 importance: 2
 category: work
 giscus_comments: false
 ---
 
-# Predictive Medical Model: Advanced Analytics in Healthcare
+# ICU Mortality Prediction Model
 
-This project showcases the development of a predictive medical model that employs machine learning to improve the accuracy of medical diagnosis and prognostic evaluations. Using Python, Pandas, and PyTorch, our model processes complex datasets to predict health outcomes with enhanced precision.
+This project focused on predicting ICU patient mortality from a Kaggle healthcare dataset. I used Python, Pandas, and PyTorch to clean the data, compare multiple model families, and iterate toward the strongest-performing approach.
 
-## Project Overview
+## Highlights
 
-The Predictive Medical Model is designed to optimize healthcare delivery by providing early diagnosis and personalized treatment plans. Through rigorous data preprocessing and model training techniques, we have created a robust framework capable of handling diverse medical data.
+- Built a full training pipeline for preprocessing, feature comparison, evaluation, and hyperparameter tuning
+- Tested multiple architectures including logistic regression, random forest, and neural networks
+- Chose the best-performing model based on precision and recall tradeoffs
+- Reached approximately 99% accuracy during the final tuned runs
 
-### Model Development Highlights
+## What I learned
 
-- **Data Optimization**: Utilized advanced data cleaning techniques and feature engineering to prepare dataset for high-efficiency machine learning applications.
-- **Model Selection**: Employed a variety of predictive algorithms, rigorously testing each to identify the model with the best performance metrics.
-- **Hyperparameter Tuning**: Conducted extensive trials to fine-tune model parameters, significantly improving prediction accuracy through sophisticated statistical methods.
+Working with medical data made model evaluation more important than headline accuracy. Comparing multiple approaches and understanding where they performed well helped turn this into more than just a training exercise.
 
-### Predictive Model AUC performance
+## Predictive Model AUC Performance
 
 <div class="row justify-content-center ">
     <div class="col-sm-8 mt-3  mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/AUC.png" title="AUC of XGBoost model" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption"> Displayed is the ROC curve of a predictive model with an AUC of 0.87, indicating high accuracy in distinguishing between classes.</div>
+<div class="caption">ROC curve from one of the evaluated models, used to compare class separation performance during experimentation.</div>

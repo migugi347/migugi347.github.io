@@ -2,12 +2,16 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Dive into my portfolio of projects where tech meets creativity.
+description: Selected engineering and product work across infrastructure, web, and machine learning.
 nav: true
 nav_order: 3
 display_categories: [work]
 horizontal: false
 ---
+
+<p class="projects-intro">
+  A few projects that reflect how I like to work: build fast, keep the user experience clear, and make the underlying system strong enough to scale.
+</p>
 
 <!-- pages/projects.md -->
 <div class="projects">

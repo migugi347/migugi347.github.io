@@ -1,11 +1,11 @@
 ---
 layout: cv
 permalink: /cv/
-title: cv
+title: resume
 nav: true
 nav_order: 1
 cv_pdf: mg_res.pdf
-description: My current Resume Last Updated April 2024
+description: Current resume and experience overview
 toc:
   sidebar: left
 ---
